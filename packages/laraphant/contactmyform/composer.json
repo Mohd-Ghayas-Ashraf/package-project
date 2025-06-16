@@ -1,0 +1,25 @@
+{
+    "name": "laraphant/contactmyform",
+    "description": "contactformDemo",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laraphant\\Contactmyform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraphant\\Contactmyform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghayas"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
